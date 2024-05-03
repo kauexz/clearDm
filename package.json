@@ -1,0 +1,12 @@
+{
+  "name": "clear-dm",
+  "main": "main.js",
+  "author": "Kaue",
+  "discord": "kfwr",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security",
+    "request-promise-native": "^1.0.9"
+  }
+}
